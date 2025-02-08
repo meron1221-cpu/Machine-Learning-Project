@@ -99,5 +99,5 @@ uvicorn main:app --reload
 
 # **📌 Submission Details**  
 📍 **GitHub Repo:** [🔗 Link to Repository](https://github.com/meron1221-cpu/Machine-Learning-Project.git#)  
-📍 **API Deployment Link (if applicable):** [🔗 Link to API](https://machine-learning-project-2-77qn.onrender.com#)  
+📍 **API Deployment Link (if applicable):** [🔗 Link to API](https://machine-learning-project-2-77qn.onrender.com/docs#)  
 📍 **Deadline:** February 2, 2017 EC  
