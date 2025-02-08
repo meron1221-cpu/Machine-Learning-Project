@@ -6,14 +6,16 @@ import joblib  # If loading an ML model
 
 app = FastAPI()
 
-# Add CORS middleware
+from fastapi.middleware.cors import CORSMiddleware
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Allows requests from any origin (modify for production)
+    allow_origins=["*"],  # Change to ["https://your-frontend.com"] in production
     allow_credentials=True,
-    allow_methods=["*"],  # Allows all HTTP methods
-    allow_headers=["*"],  # Allows all headers
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
+
 
 # Define the input data model
 class HeartData(BaseModel):
@@ -53,3 +55,5 @@ def predict(data: HeartData):
         "prediction": prediction,  # 1 = Heart disease, 0 = No heart disease
         "status": "Heart Disease Present" if prediction == 1 else "Heart Disease Absent"
     }
+
+
