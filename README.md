@@ -57,8 +57,8 @@ This project explores a real-world machine learning problem, guiding through the
 
 ## **📥 1. Clone the Repository**  
 ```bash
-git clone https://github.com/your-username/heart-disease-prediction.git
-cd heart-disease-prediction
+[git clone https://github.com/meron1221-cpu/Machine-Learning-Project.git
+
 ```
 
 ## **📦 2. Install Dependencies**  
@@ -68,7 +68,7 @@ pip install -r requirements.txt
 
 ## **📌 3. Run Model Training**  
 ```bash
-python train_model.py
+python main.py
 ```
 
 ## **🚀 4. Start API for Model Deployment**  
