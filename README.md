@@ -120,7 +120,7 @@ uvicorn main:app --reload
 
 # **👩‍💻 Author**  
 📌 **Name:** Meron Nisrane  
-📌 **LinkedIn:** [🔗 Connect on LinkedIn](www.linkedin.com/in/meron-nisrane-1882b629b)  
+📌 **LinkedIn:** [🔗 Connect on LinkedIn](https://www.linkedin.com/in/meron-nisrane-1882b629b)
 📌 **Email:** [📩 meronnisrane@gmail.com](mailto:meronnisrane@gmail.com)  
 
 ---
