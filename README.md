@@ -72,25 +72,22 @@ This project explores a real-world **machine learning problem**, guiding through
 ```bash
 git clone https://github.com/meron1221-cpu/Machine-Learning-Project.git
 ```
-<button onclick="navigator.clipboard.writeText('git clone https://github.com/meron1221-cpu/Machine-Learning-Project.git')">📋 Copy</button>
+
 
 ## **📦 2. Install Dependencies**  
 ```bash
 pip install -r requirements.txt
 ```
-<button onclick="navigator.clipboard.writeText('pip install -r requirements.txt')">📋 Copy</button>
 
 ## **📌 3. Run Model Training**  
 ```bash
 python main.py
 ```
-<button onclick="navigator.clipboard.writeText('python main.py')">📋 Copy</button>
 
 ## **🚀 4. Start API for Model Deployment**  
 ```bash
 uvicorn main:app --reload
 ```
-<button onclick="navigator.clipboard.writeText('uvicorn main:app --reload')">📋 Copy</button>
 
 ## **🔬 5. Test API**  
 - Open **Swagger UI** at **[`http://127.0.0.1:8000/docs`](http://127.0.0.1:8000/docs)**.  
@@ -99,7 +96,7 @@ uvicorn main:app --reload
 ---
 
 # **📊 Results & Key Findings**  
-✅ Achieved **85-90% accuracy** on test data.  
+✅ Achieved ** ~95% accuracy** on test data.  
 ✅ **Chest pain type, exercise-induced angina, and max heart rate** were top predictive features.  
 ✅ Deployment provides an **accessible API** for real-world use.  
 
@@ -119,9 +116,12 @@ uvicorn main:app --reload
 📍 **Deadline:** February 2, 2017 EC  
 
 ---
+---
 
-👨‍💻 Author
-📌 Name: Meron Nisrane
-📌 LinkedIn: 🔗 www.linkedin.com/in/meron-nisrane-1882b629b
-📌 Email: meronnisrane@gmail.com
+# **👩‍💻 Author**  
+📌 **Name:** Meron Nisrane  
+📌 **LinkedIn:** [🔗 Connect on LinkedIn](www.linkedin.com/in/meron-nisrane-1882b629b)  
+📌 **Email:** [📩 meronnisrane@gmail.com](mailto:meronnisrane@gmail.com)  
+
+---
 
