@@ -101,6 +101,68 @@ uvicorn main:app --reload
 ✅ Deployment provides an **accessible API** for real-world use.  
 
 ---
+Here's the updated JSON section formatted for a GitHub README:
+
+---
+
+# 📋 Example Predictions  
+Here are some example predictions made by the deployed model based on input data:
+
+### Example 1:
+**Input JSON**
+```json
+{ 
+  "age": 40,
+  "sex": 1,
+  "cp": 0,
+  "trestbps": 110,
+  "chol": 167,
+  "fbs": 0,
+  "restecg": 0,
+  "thalachh": 114,
+  "exang": 1,
+  "oldpeak": 2.0,
+  "slope": 1,
+  "ca": 0,
+  "thal": 3
+}
+```
+**Response**
+```json
+{ 
+  "prediction": 0,
+  "status": "Heart Disease Absent"
+}
+```
+
+### Example 2:
+**Input JSON**
+```json
+{
+  "age": 63,
+  "sex": 1,
+  "cp": 3,
+  "trestbps": 145,
+  "chol": 233,
+  "fbs": 1,
+  "restecg": 0,
+  "thalachh": 150,
+  "exang": 0,
+  "oldpeak": 2.3,
+  "slope": 0,
+  "ca": 0,
+  "thal": 1
+}
+```
+**Response**
+```json
+{
+  "prediction": 1,
+  "heart_disease": "Present"
+}
+``` 
+
+--- 
 
 # **🚀 Future Improvements**  
 ✅ **🖥️ Interactive User Interface:** Create a **web dashboard** for easy predictions.  
